@@ -28,7 +28,10 @@ $statement = $db->prepare("SELECT name, description, price FROM scripture");
 $statement->execute();
 while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
     $products[] = $row;
+
 }
+
+print_r($products);
 
 echo $products[0]['name'] .' '. $products[0]['description'] .' '. $products[0]['price'];
 echo $products[1]['name'] .' '. $products[1]['description'] .' '. $products[1]['price'];
