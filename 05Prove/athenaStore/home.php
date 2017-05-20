@@ -30,8 +30,8 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
     $products[] = $row;
 
 }
-/*
-print_r($products);
+
+//print_r($products);
 
 echo $products[0]['name'] .' '. $products[0]['description'] .' '. $products[0]['price'];
 echo $products[1]['name'] .' '. $products[1]['description'] .' '. $products[1]['price'];
@@ -39,8 +39,9 @@ echo $products[2]['name'] .' '. $products[2]['description'] .' '. $products[2]['
 echo $products[3]['name'] .' '. $products[3]['description'] .' '. $products[3]['price'];
 echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['price'];
 
-//$key = array_keys($products);
-**/
+
+$key = array_keys($products);
+
 ?>
 
 
@@ -76,7 +77,7 @@ echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['
         </div>
         <br>
         <div id="columnLeft">
-            <b><?php $products[0]['description']; ?></b>
+            <b><?php echo $products[0]['description']; ?></b>
             <img src="p1.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -88,7 +89,7 @@ echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['
         </div>
 
         <div id="columnRight">
-            <b><?php echo $product[2]['description']; ?></b>
+            <b><?php echo $products[2]['description']; ?></b>
             <img src="p3.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -99,7 +100,7 @@ echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['
         </div>
 
         <div id="content">
-            <b><?php echo $product[1]['description']; ?></b>
+            <b><?php echo $products[1]['description']; ?></b>
             <img src="p2.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -110,7 +111,7 @@ echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['
         </div>
 
         <div id="columnLeft2">
-            <b><?php echo $product[3]['description']; ?></b>
+            <b><?php echo $products[3]['description']; ?></b>
             <img src="p4.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -121,7 +122,7 @@ echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['
         </div>
 
         <div id="columnRight2">
-            <b><?php echo $product[5]['description']; ?></b>
+            <b><?php echo $products[5]['description']; ?></b>
             <img src="p6.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -132,7 +133,7 @@ echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['
         </div>
 
         <div id="content2">
-            <b><?php echo $product[4]['description']; ?></b>
+            <b><?php echo $products[4]['description']; ?></b>
             <img src="p5.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
