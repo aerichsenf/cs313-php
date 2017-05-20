@@ -23,7 +23,7 @@ foreach ($_POST as $Key => $quantity) {
 <script type="text/javascript">
     function deleteme() {
         //alert("it's working");
-        if(confirm("Do you want delete!")) {
+        if(confirm("Click okay to delete your cart!")) {
             //  window.location.href='delete.php?del_id='+ delid +'';
             window.location.href='delete.php';
             return true;
