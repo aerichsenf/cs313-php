@@ -2,7 +2,7 @@
 session_start();
 include_once("products.php");
 
-$products = Array(
+/*$products = Array(
     "p1"=> Array("name"=>"Daisy", "description"=>"Daisy by Marc Jacobs", "price"=>53.48),
     "p2"=> Array("name"=>"Versace", "description"=>"Versace by Bright Crystal", "price"=>45.99),
     "p3"=> Array("name"=>"Romance", "description"=>"Romance by Ralph Lauren", "price"=>33.90),
@@ -10,8 +10,27 @@ $products = Array(
     "p5"=> Array("name"=>"Cashmere Mist", "description"=>"Cashmere Mist by DonnaKaran", "price"=>49.49),
     "p6"=> Array("name"=>"Black Opium", "description"=>"Black Opium by YvesSaintLaurent", "price"=>69.99)
 );
+**/
 
-$key = array_keys($products);
+$dbUrl = getenv('DATABASE_URL');
+
+$dbopts = parse_url($dbUrl);
+
+$dbHost = $dbopts["host"];
+$dbPort = $dbopts["port"];
+$dbUser = $dbopts["user"];
+$dbPassword = $dbopts["pass"];
+$dbName = ltrim($dbopts["path"],'/');
+
+$db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+
+$statement = $db->prepare("SELECT name, description, price FROM scripture");
+$statement->execute();
+while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+    $products[] = $row;
+}
+
+//$key = array_keys($products);
 
 ?>
 
@@ -48,7 +67,8 @@ $key = array_keys($products);
         </div>
         <br>
         <div id="columnLeft">
-            <b><?php echo $products['p1']['description']; ?></b>
+            <b><?php foreach($products[0] as $product)
+                echo $product['description']; ?></b>
             <img src="p1.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -60,7 +80,8 @@ $key = array_keys($products);
         </div>
 
         <div id="columnRight">
-            <b><?php echo $products['p3']['description']; ?></b>
+            <b><?php foreach($products[2] as $product)
+                    echo $product['description']; ?></b>
             <img src="p3.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -71,7 +92,8 @@ $key = array_keys($products);
         </div>
 
         <div id="content">
-            <b><?php echo $products['p2']['description']; ?></b>
+            <b><?php foreach($products[1] as $product)
+                    echo $product['description']; ?></b>
             <img src="p2.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -82,7 +104,8 @@ $key = array_keys($products);
         </div>
 
         <div id="columnLeft2">
-            <b><?php echo $products['p4']['description']; ?></b>
+            <b><?php foreach($products[3] as $product)
+                    echo $product['description']; ?></b>
             <img src="p4.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -93,7 +116,8 @@ $key = array_keys($products);
         </div>
 
         <div id="columnRight2">
-            <b><?php echo $products['p6']['description']; ?></b>
+            <b><?php foreach($products[5] as $product)
+                    echo $product['description']; ?></b>
             <img src="p6.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -104,7 +128,8 @@ $key = array_keys($products);
         </div>
 
         <div id="content2">
-            <b><?php echo $products['p5']['description']; ?></b>
+            <b><?php foreach($products[4] as $product)
+                    echo $product['description']; ?></b>
             <img src="p5.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
