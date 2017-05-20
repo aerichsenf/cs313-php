@@ -32,13 +32,13 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 }
 
 //print_r($products);
-
+/* for test
 echo $products[0]['name'] .' '. $products[0]['description'] .' '. $products[0]['price'];
 echo $products[1]['name'] .' '. $products[1]['description'] .' '. $products[1]['price'];
 echo $products[2]['name'] .' '. $products[2]['description'] .' '. $products[2]['price'];
 echo $products[3]['name'] .' '. $products[3]['description'] .' '. $products[3]['price'];
 echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['price'];
-
+**/
 
 $key = array_keys($products);
 
