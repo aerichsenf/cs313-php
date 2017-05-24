@@ -35,10 +35,9 @@
         <fieldset>
 
             <!-- Form Name -->
-            <legend>Contact Us Today!</legend>
+            <legend>Please provide your information</legend>
 
-            <!-- Text input-->
-
+            <!-- Name input-->
             <div class="form-group">
                 <label class="col-md-4 control-label">First Name</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -49,8 +48,7 @@
                 </div>
             </div>
 
-            <!-- Text input-->
-
+            <!-- Name input-->
             <div class="form-group">
                 <label class="col-md-4 control-label" >Last Name</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -61,7 +59,7 @@
                 </div>
             </div>
 
-            <!-- Text input-->
+            <!-- Email input-->
             <div class="form-group">
                 <label class="col-md-4 control-label">E-Mail</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -73,8 +71,7 @@
             </div>
 
 
-            <!-- Text input-->
-
+            <!-- Phone input-->
             <div class="form-group">
                 <label class="col-md-4 control-label">Phone #</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -85,8 +82,7 @@
                 </div>
             </div>
 
-            <!-- Text input-->
-
+            <!-- Address input-->
             <div class="form-group">
                 <label class="col-md-4 control-label">Address</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -97,8 +93,18 @@
                 </div>
             </div>
 
-            <!-- Text input-->
+            <!-- Apartment input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label">Apartment</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                        <input name="address2" placeholder="Apartment" class="form-control" type="text">
+                    </div>
+                </div>
+            </div>
 
+            <!-- City input-->
             <div class="form-group">
                 <label class="col-md-4 control-label">City</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -109,8 +115,7 @@
                 </div>
             </div>
 
-            <!-- Select Basic -->
-
+            <!-- State -->
             <div class="form-group">
                 <label class="col-md-4 control-label">State</label>
                 <div class="col-md-4 selectContainer">
@@ -174,8 +179,7 @@
                 </div>
             </div>
 
-            <!-- Text input-->
-
+            <!-- Zip input-->
             <div class="form-group">
                 <label class="col-md-4 control-label">Zip Code</label>
                 <div class="col-md-4 inputGroupContainer">
@@ -186,20 +190,20 @@
                 </div>
             </div>
 
-            <!-- Success message -->
+            <!-- Success message
             <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
-
+---->
             <!-- Button -->
             <div class="form-group">
                 <label class="col-md-4 control-label"></label>
                 <div class="col-md-4">
-                    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+                    <button type="submit" class="btn btn-warning" >Submit <span class="glyphicon glyphicon-arrow-right"></span></button>
                 </div>
             </div>
 
         </fieldset>
     </form>
 </div>
-</div><!-- /.container -->
+<!-- /.container -->
 </body>
 </html>
