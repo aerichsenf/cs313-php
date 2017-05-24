@@ -2,7 +2,7 @@
 session_start();
 include_once("getDB.php");
 
-$key = array_keys($products);
+//$key = array_keys($products);
 
 ?>
 
@@ -43,7 +43,7 @@ $key = array_keys($products);
             <img src="p1.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
-                echo "<input type='number' name='$key[0]' style='width:50px' placeholder='QTY'>" ;
+                echo "<input type='number' name='key[]' style='width:50px' placeholder='QTY'>" ;
                 echo "  <input type='submit' value='add to cart'>". "<br>" ;
                 ?>
             </form>
@@ -55,7 +55,7 @@ $key = array_keys($products);
             <img src="p3.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
-                echo "<input type='number' name='$key[2]' style='width:50px' placeholder='QTY'>" ;
+                echo "<input type='number' name='key[]' style='width:50px' placeholder='QTY'>" ;
                 echo "  <input type='submit' value='add to cart'>". "<br>" ;
                 ?>
             </form>
@@ -66,7 +66,7 @@ $key = array_keys($products);
             <img src="p2.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
-                echo "<input type='number' name='$key[1]' style='width:50px' placeholder='QTY'>" ;
+                echo "<input type='number' name='key[]' style='width:50px' placeholder='QTY'>" ;
                 echo "  <input type='submit' value='add to cart'>". "<br>" ;
                 ?>
             </form>
@@ -77,7 +77,7 @@ $key = array_keys($products);
             <img src="p4.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
-                echo "<input type='number' name='$key[3]' style='width:50px' placeholder='QTY'>" ;
+                echo "<input type='number' name='key[]' style='width:50px' placeholder='QTY'>" ;
                 echo "  <input type='submit' value='add to cart'>". "<br>" ;
                 ?>
             </form>
@@ -88,7 +88,7 @@ $key = array_keys($products);
             <img src="p6.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
-                echo "<input type='number' name='$key[5]' style='width:50px' placeholder='QTY'>" ;
+                echo "<input type='number' name='key[]' style='width:50px' placeholder='QTY'>" ;
                 echo "  <input type='submit' value='add to cart'>". "<br>" ;
                 ?>
             </form>
@@ -99,7 +99,7 @@ $key = array_keys($products);
             <img src="p5.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
-                echo "<input type='number' name='$key[4]' style='width:50px' placeholder='QTY'>" ;
+                echo "<input type='number' name='key[]' style='width:50px' placeholder='QTY'>" ;
                 echo "  <input type='submit' value='add to cart'>". "<br>" ;
                 ?>
             </form>
