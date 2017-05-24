@@ -15,8 +15,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="155" column="31" lean-forward="true" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+            <state relative-caret-position="92">
+              <caret line="149" column="10" lean-forward="true" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="10" />
               <folding>
                 <marker date="1495323075096" expanded="true" signature="992:1029" ph="SELECT desci... scripture" />
                 <marker date="1495323075096" expanded="true" signature="992:1036" ph="SELECT name,... product" />
@@ -291,12 +291,12 @@
       <updated>1495228581729</updated>
       <workItem from="1495228583263" duration="18229000" />
       <workItem from="1495253731366" duration="8640000" />
-      <workItem from="1495319127537" duration="3340000" />
+      <workItem from="1495319127537" duration="3394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30209000" />
+    <option name="totallyTimeSpent" value="30263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1368" height="773" extended-state="6" />
@@ -473,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="155" column="31" lean-forward="true" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+        <state relative-caret-position="92">
+          <caret line="149" column="10" lean-forward="true" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="10" />
           <folding>
             <marker date="1495323075096" expanded="true" signature="992:1029" ph="SELECT desci... scripture" />
             <marker date="1495323075096" expanded="true" signature="992:1036" ph="SELECT name,... product" />
