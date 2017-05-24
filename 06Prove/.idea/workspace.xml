@@ -12,42 +12,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/athenaStore/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="-162">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <marker date="1495664817458" expanded="true" signature="986:1030" ph="SELECT name,... product" />
-                <marker date="1495664817458" expanded="true" signature="2914:2924" ph="..." />
-                <marker date="1495664817458" expanded="true" signature="3389:3399" ph="..." />
-                <marker date="1495664817458" expanded="true" signature="3859:3869" ph="..." />
-                <marker date="1495664817458" expanded="true" signature="4333:4343" ph="..." />
-                <marker date="1495664817458" expanded="true" signature="4808:4818" ph="..." />
-                <marker date="1495664817458" expanded="true" signature="5279:5289" ph="..." />
+                <marker date="1495664915746" expanded="true" signature="1338:1348" ph="..." />
+                <marker date="1495664915746" expanded="true" signature="1813:1823" ph="..." />
+                <marker date="1495664915746" expanded="true" signature="2283:2293" ph="..." />
+                <marker date="1495664915746" expanded="true" signature="2757:2767" ph="..." />
+                <marker date="1495664915746" expanded="true" signature="3232:3242" ph="..." />
+                <marker date="1495664915746" expanded="true" signature="3703:3713" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cart.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getDB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/athenaStore/getDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-              <folding>
-                <marker date="1495664817474" expanded="true" signature="337:381" ph="SELECT name,... product" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -57,9 +44,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/athenaStore/cart.php" />
         <option value="$PROJECT_DIR$/athenaStore/getDB.php" />
         <option value="$PROJECT_DIR$/athenaStore/home.php" />
+        <option value="$PROJECT_DIR$/athenaStore/cart.php" />
       </list>
     </option>
   </component>
@@ -202,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495664224612</updated>
-      <workItem from="1495664225865" duration="599000" />
+      <workItem from="1495664225865" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="599000" />
+    <option name="totallyTimeSpent" value="1050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1368" height="773" extended-state="6" />
@@ -243,14 +230,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/getDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -263,17 +242,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="-162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1495664817458" expanded="true" signature="986:1030" ph="SELECT name,... product" />
-            <marker date="1495664817458" expanded="true" signature="2914:2924" ph="..." />
-            <marker date="1495664817458" expanded="true" signature="3389:3399" ph="..." />
-            <marker date="1495664817458" expanded="true" signature="3859:3869" ph="..." />
-            <marker date="1495664817458" expanded="true" signature="4333:4343" ph="..." />
-            <marker date="1495664817458" expanded="true" signature="4808:4818" ph="..." />
-            <marker date="1495664817458" expanded="true" signature="5279:5289" ph="..." />
+            <marker date="1495664915746" expanded="true" signature="1338:1348" ph="..." />
+            <marker date="1495664915746" expanded="true" signature="1813:1823" ph="..." />
+            <marker date="1495664915746" expanded="true" signature="2283:2293" ph="..." />
+            <marker date="1495664915746" expanded="true" signature="2757:2767" ph="..." />
+            <marker date="1495664915746" expanded="true" signature="3232:3242" ph="..." />
+            <marker date="1495664915746" expanded="true" signature="3703:3713" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

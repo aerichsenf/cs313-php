@@ -2,44 +2,6 @@
 session_start();
 include_once("getDB.php");
 
-/*$products = Array(
-    "p1"=> Array("name"=>"Daisy", "description"=>"Daisy by Marc Jacobs", "price"=>53.48),
-    "p2"=> Array("name"=>"Versace", "description"=>"Versace by Bright Crystal", "price"=>45.99),
-    "p3"=> Array("name"=>"Romance", "description"=>"Romance by Ralph Lauren", "price"=>33.90),
-    "p4"=> Array("name"=>"Omnia", "description"=>"Omnia by Bvlgari", "price"=>32.99),
-    "p5"=> Array("name"=>"Cashmere Mist", "description"=>"Cashmere Mist by DonnaKaran", "price"=>49.49),
-    "p6"=> Array("name"=>"Black Opium", "description"=>"Black Opium by YvesSaintLaurent", "price"=>69.99)
-);
-
-
-$dbUrl = getenv('DATABASE_URL');
-
-$dbopts = parse_url($dbUrl);
-
-$dbHost = $dbopts["host"];
-$dbPort = $dbopts["port"];
-$dbUser = $dbopts["user"];
-$dbPassword = $dbopts["pass"];
-$dbName = ltrim($dbopts["path"],'/');
-
-$db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
-
-$statement = $db->prepare("SELECT name, description, price FROM product");
-$statement->execute();
-while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-    $products[] = $row;
-
-}
-**/
-//print_r($products);
- //for test
-echo $products[0]['name'] .' '. $products[0]['description'] .' '. $products[0]['price'];
-echo $products[1]['name'] .' '. $products[1]['description'] .' '. $products[1]['price'];
-echo $products[2]['name'] .' '. $products[2]['description'] .' '. $products[2]['price'];
-echo $products[3]['name'] .' '. $products[3]['description'] .' '. $products[3]['price'];
-echo $products[4]['name'] .' '. $products[4]['description'] .' '. $products[4]['price'];
-//**/
-
 $key = array_keys($products);
 
 ?>
