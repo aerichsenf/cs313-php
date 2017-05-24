@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once('products.php');
+//include_once('products.php');
 
 
 foreach ($_POST as $Key => $quantity) {
