@@ -15,8 +15,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/athenaStore/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="53" />
               <folding>
                 <marker date="1495664915746" expanded="true" signature="1338:1348" ph="..." />
                 <marker date="1495664915746" expanded="true" signature="1813:1823" ph="..." />
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -189,12 +189,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495664224612</updated>
-      <workItem from="1495664225865" duration="1050000" />
+      <workItem from="1495664225865" duration="1265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1050000" />
+    <option name="totallyTimeSpent" value="1265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1368" height="773" extended-state="6" />
@@ -242,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="53" />
           <folding>
             <marker date="1495664915746" expanded="true" signature="1338:1348" ph="..." />
             <marker date="1495664915746" expanded="true" signature="1813:1823" ph="..." />
@@ -258,7 +258,7 @@
     <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>

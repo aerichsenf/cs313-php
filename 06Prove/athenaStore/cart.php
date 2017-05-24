@@ -6,7 +6,8 @@ include_once('getDB.php');
 foreach ($_POST as $Key => $quantity) {
     if (array_key_exists($Key, $products)) {
         $_SESSION[$Key] = $quantity;
-        var_dump($_SESSION[$Key]);
+        echo $products['description'] . ' --> ';
+        echo ($_SESSION[$Key]);
     }
 }
 
