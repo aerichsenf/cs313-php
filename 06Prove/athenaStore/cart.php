@@ -96,16 +96,17 @@ foreach ($_SESSION as $Key => $quantity) {
             </tfoot>
         </table>
         <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
-        <form action="checkout.php" method="post">
+    </div>
             <div class="form-group">
-                <label class="col-md-4 control-label"></label>
+                <!--<label class="col-md-4 control-label"></label>-->
                 <div class="col-md-4">
                     <button type="submit" class="btn btn-danger" onClick="deleteme()" name="Delete" value="Delete" >Cancel <span class="glyphicon glyphicon-remove-circle"></span></button>
+                    <form action="checkout.php" method="post">
                     <button type="submit" class="btn btn-success" >Confirm <span class="glyphicon glyphicon-ok-circle"></span></button>
                 </div>
             </div>
         </form>
-    </div>
+
     <br><br><br>
 
     <div id="footer">
