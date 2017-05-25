@@ -22,7 +22,7 @@ echo $products[0]['description'];
 //$newId3 = $pdo->lastInsertId('id_seq');
 
 $nextId = $db->prepare("SELECT MAX(productID) FROM product");
-$nextId = $nextId + 1;
+$nextId = (int)$nextId + 1;
 
 echo "nextID --> " . $nextId;
 //echo "2 --> " . $newId2;
