@@ -1,5 +1,6 @@
 <?php
 session_start();
+include_once("getDB.php");
 //var_dump($_SESSION);
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
@@ -10,6 +11,8 @@ $address1 = $_POST['address1'];
 $address2 = $_POST['address2'];
 $state = $_POST['state'];
 $zip = $_POST['zip'];
+
+echo $products[0]['description'];
 
 ?>
 <!DOCTYPE html>
