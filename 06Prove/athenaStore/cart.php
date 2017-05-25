@@ -97,6 +97,7 @@ foreach ($_SESSION as $Key => $quantity) {
         </table>
         <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
     </div>
+    <br><br>
             <div>
                 <!--<label class="col-md-4 control-label"></label>-->
                 <label class="col-md-5 control-label"></label>
@@ -104,9 +105,10 @@ foreach ($_SESSION as $Key => $quantity) {
                     <button type="submit" class="btn btn-danger" onClick="deleteme()" name="Delete" value="Delete" >Cancel <span class="glyphicon glyphicon-remove-circle"></span></button>
                     <form action="checkout.php" method="post">
                     <button type="submit" class="btn btn-success" >Confirm <span class="glyphicon glyphicon-ok-circle"></span></button>
+                    </form>
                 </div>
             </div>
-        </form>
+
 
     <br><br><br>
 
