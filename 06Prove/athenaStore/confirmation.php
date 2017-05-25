@@ -4,7 +4,7 @@ session_start();
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
 $email = $_POST['email'];
-$email = $_POST['email'];
+$city = $_POST['city'];
 $phone = $_POST['phone'];
 $address1 = $_POST['address1'];
 $address2 = $_POST['address2'];
@@ -55,11 +55,11 @@ $zip = $_POST['zip'];
 <div class="container">
     <div class="jumbotron">
 <?php
-echo "<h1>" . "Your order has been processed. It will be shipped to: " . "</h1>". "<br>";
+echo "<h1>" . "Your order has been processed." . "<h3>It will be shipped to:</h1><br></h3>";
 echo $first_name . " " . $last_name . "<br>";
 echo $address1 . " " . $address2 . "<br>";
-echo $city . " " .$state . " " . $zip . "<br>";
-echo "Your total is $" . $_SESSION['priceTotal'];
+echo $city . " - " .$state . ", " . $zip . "<br>";
+echo "<b>" . "Your total is $" . $_SESSION['priceTotal'] . "<b>";
 ?>
     </div>
 </div>
