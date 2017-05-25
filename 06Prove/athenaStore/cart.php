@@ -99,7 +99,8 @@ foreach ($_SESSION as $Key => $quantity) {
     </div>
             <div>
                 <!--<label class="col-md-4 control-label"></label>-->
-                <div>
+                <label class="col-md-5 control-label"></label>
+                <div class="col-md-5">
                     <button type="submit" class="btn btn-danger" onClick="deleteme()" name="Delete" value="Delete" >Cancel <span class="glyphicon glyphicon-remove-circle"></span></button>
                     <form action="checkout.php" method="post">
                     <button type="submit" class="btn btn-success" >Confirm <span class="glyphicon glyphicon-ok-circle"></span></button>
