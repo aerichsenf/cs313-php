@@ -52,12 +52,12 @@
       <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1495690086827" expanded="true" signature="653:712" ph="INSERT INTO product... " />
-                <marker date="1495690086827" expanded="true" signature="664:712" ph="SELECT name,... product" />
-                <marker date="1495690086827" expanded="true" signature="1900:1971" ph="..." />
+                <marker date="1495690158297" expanded="true" signature="657:716" ph="INSERT INTO product... " />
+                <marker date="1495690158297" expanded="true" signature="668:716" ph="SELECT name,... product" />
+                <marker date="1495690158297" expanded="true" signature="1904:1975" ph="..." />
               </folding>
             </state>
           </provider>
@@ -252,12 +252,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495664224612</updated>
-      <workItem from="1495664225865" duration="13185000" />
+      <workItem from="1495664225865" duration="13259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13185000" />
+    <option name="totallyTimeSpent" value="13259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1368" height="773" extended-state="6" />
@@ -360,12 +360,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1495690086827" expanded="true" signature="653:712" ph="INSERT INTO product... " />
-            <marker date="1495690086827" expanded="true" signature="664:712" ph="SELECT name,... product" />
-            <marker date="1495690086827" expanded="true" signature="1900:1971" ph="..." />
+            <marker date="1495690158297" expanded="true" signature="657:716" ph="INSERT INTO product... " />
+            <marker date="1495690158297" expanded="true" signature="668:716" ph="SELECT name,... product" />
+            <marker date="1495690158297" expanded="true" signature="1904:1975" ph="..." />
           </folding>
         </state>
       </provider>

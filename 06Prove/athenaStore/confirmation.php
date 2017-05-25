@@ -16,11 +16,11 @@ echo $products[0]['description'];
 
 // Try a select statement here
 
-$newId = $pdo->lastInsertId('productid_seq');
+//$newId = $pdo->lastInsertId('productid_seq');
 //$newId2 = $pdo->lastInsertId('product_id_seq');
 //$newId3 = $pdo->lastInsertId('id_seq');
 
-echo "1 --> " . $newId;
+//echo "1 --> " . $newId;
 //echo "2 --> " . $newId2;
 //echo "3 --> " . $newId3;
 
