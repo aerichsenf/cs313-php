@@ -29,7 +29,11 @@ foreach ($_SESSION as $Key => $quantity) {
     <head>
         <title>Athena Avenue</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="content.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
+        <script src="content.js"></script>
 
     </head>
     <body>
@@ -91,9 +95,15 @@ foreach ($_SESSION as $Key => $quantity) {
                 <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
             </tfoot>
         </table>
-        <input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">
-        <form action="checkout.html" method="post">
-            <input type="submit" style="float: right;" name="Confirm" value="Confirm">
+        <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
+        <form action="checkout.php" method="post">
+            <div class="form-group">
+                <label class="col-md-4 control-label"></label>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-danger" onClick="deleteme()" name="Delete" value="Delete" >Cancel <span class="glyphicon glyphicon-remove-circle"></span></button>
+                    <button type="submit" class="btn btn-success" >Confirm <span class="glyphicon glyphicon-ok-circle"></span></button>
+                </div>
+            </div>
         </form>
     </div>
     <br><br><br>
