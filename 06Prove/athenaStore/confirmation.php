@@ -1,6 +1,15 @@
 <?php
 session_start();
 //var_dump($_SESSION);
+$first_name = $_POST['first_name'];
+$last_name = $_POST['last_name'];
+$email = $_POST['email'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$address1 = $_POST['address1'];
+$address2 = $_POST['address2'];
+$state = $_POST['state'];
+$zip = $_POST['zip'];
 
 ?>
 <!DOCTYPE html>
@@ -8,7 +17,9 @@ session_start();
 <head>
     <title>Athena Avenue</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="content.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -41,13 +52,17 @@ session_start();
 //    }
     ?>
 </table>
+<div class="container">
+    <div class="jumbotron">
 <?php
 echo "<h1>" . "Your order has been processed. It will be shipped to: " . "</h1>". "<br>";
-echo $_POST["name"] . " " . $_POST["lastname"] . "<br>";
-echo $_POST["address"] . " " . $_POST["city"] . "<br>";
-echo $_POST["state"] . " " . $_POST["zip"] . "<br>";
+echo $first_name . " " . $last_name . "<br>";
+echo $address1 . " " . $address2 . "<br>";
+echo $city . " " .$state . " " . $zip . "<br>";
 echo "Your total is $" . $_SESSION['priceTotal'];
 ?>
+    </div>
+</div>
 
 </body>
 </html>
