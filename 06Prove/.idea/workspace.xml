@@ -32,15 +32,15 @@
       <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="288">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <marker date="1495692236510" expanded="true" signature="637:671" ph="SELECT MAX(p... product" />
-                <marker date="1495692236510" expanded="true" signature="825:884" ph="INSERT INTO product... " />
-                <marker date="1495692236510" expanded="true" signature="836:884" ph="SELECT name,... product" />
-                <marker date="1495692236510" expanded="true" signature="945:1000" ph="..." />
-                <marker date="1495692236510" expanded="true" signature="952:1000" ph="..." />
-                <marker date="1495692236510" expanded="true" signature="2072:2143" ph="..." />
+                <marker date="1495692333755" expanded="true" signature="637:671" ph="SELECT MAX(p... product" />
+                <marker date="1495692333755" expanded="true" signature="798:857" ph="INSERT INTO product... " />
+                <marker date="1495692333755" expanded="true" signature="809:857" ph="SELECT name,... product" />
+                <marker date="1495692333755" expanded="true" signature="918:973" ph="..." />
+                <marker date="1495692333755" expanded="true" signature="925:973" ph="..." />
+                <marker date="1495692333755" expanded="true" signature="2045:2116" ph="..." />
               </folding>
             </state>
           </provider>
@@ -242,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495664224612</updated>
       <workItem from="1495664225865" duration="14221000" />
-      <workItem from="1495691791262" duration="451000" />
+      <workItem from="1495691791262" duration="549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14672000" />
+    <option name="totallyTimeSpent" value="14770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-11" width="1368" height="780" extended-state="6" />
@@ -313,12 +313,12 @@
         <state relative-caret-position="432">
           <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
-            <marker date="1495692236510" expanded="true" signature="637:671" ph="SELECT MAX(p... product" />
-            <marker date="1495692236510" expanded="true" signature="825:884" ph="INSERT INTO product... " />
-            <marker date="1495692236510" expanded="true" signature="836:884" ph="SELECT name,... product" />
-            <marker date="1495692236510" expanded="true" signature="945:1000" ph="..." />
-            <marker date="1495692236510" expanded="true" signature="952:1000" ph="..." />
-            <marker date="1495692236510" expanded="true" signature="2072:2143" ph="..." />
+            <marker date="1495692333755" expanded="true" signature="637:671" ph="SELECT MAX(p... product" />
+            <marker date="1495692333755" expanded="true" signature="798:857" ph="INSERT INTO product... " />
+            <marker date="1495692333755" expanded="true" signature="809:857" ph="SELECT name,... product" />
+            <marker date="1495692333755" expanded="true" signature="918:973" ph="..." />
+            <marker date="1495692333755" expanded="true" signature="925:973" ph="..." />
+            <marker date="1495692333755" expanded="true" signature="2045:2116" ph="..." />
           </folding>
         </state>
       </provider>
@@ -381,15 +381,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="288">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1495692236510" expanded="true" signature="637:671" ph="SELECT MAX(p... product" />
-            <marker date="1495692236510" expanded="true" signature="825:884" ph="INSERT INTO product... " />
-            <marker date="1495692236510" expanded="true" signature="836:884" ph="SELECT name,... product" />
-            <marker date="1495692236510" expanded="true" signature="945:1000" ph="..." />
-            <marker date="1495692236510" expanded="true" signature="952:1000" ph="..." />
-            <marker date="1495692236510" expanded="true" signature="2072:2143" ph="..." />
+            <marker date="1495692333755" expanded="true" signature="637:671" ph="SELECT MAX(p... product" />
+            <marker date="1495692333755" expanded="true" signature="798:857" ph="INSERT INTO product... " />
+            <marker date="1495692333755" expanded="true" signature="809:857" ph="SELECT name,... product" />
+            <marker date="1495692333755" expanded="true" signature="918:973" ph="..." />
+            <marker date="1495692333755" expanded="true" signature="925:973" ph="..." />
+            <marker date="1495692333755" expanded="true" signature="2045:2116" ph="..." />
           </folding>
         </state>
       </provider>
