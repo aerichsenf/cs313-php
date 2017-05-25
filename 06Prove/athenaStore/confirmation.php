@@ -24,7 +24,7 @@ echo $products[0]['description'];
 $nextId = $db->prepare("SELECT MAX(productID) FROM product");
 
 
-echo "nextID --> " . $nextId;
+echo "nextID --> " . (integer)$nextId;
 //echo "2 --> " . $newId2;
 //echo "3 --> " . $newId3;
 
