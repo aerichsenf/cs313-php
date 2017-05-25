@@ -14,6 +14,14 @@ $zip = $_POST['zip'];
 
 echo $products[0]['description'];
 
+// Try a select statement here
+
+$db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+
+$insertStatement = $db->prepare("INSERT INTO product VALUES (7, 'Pira', 'bla bla bla', 9.99)");
+$insertStatement->execute();
+
+
 ?>
 <!DOCTYPE html>
 <html>
