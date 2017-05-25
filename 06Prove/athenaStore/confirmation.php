@@ -17,9 +17,12 @@ echo $products[0]['description'];
 // Try a select statement here
 
 //$newId = $pdo->lastInsertId('productid_seq');
-$nextId = $db->prepare("nextval('product_productid_seq'::regclass);");
+//$nextId = $db->prepare("nextval('product_productid_seq'::regclass);");
 //$newId2 = $pdo->lastInsertId('product_id_seq');
 //$newId3 = $pdo->lastInsertId('id_seq');
+
+$nextId = $db->prepare("SELECT MAX(productID) FROM product");
+$nextId++;
 
 echo "nextID --> " . $nextId;
 //echo "2 --> " . $newId2;
