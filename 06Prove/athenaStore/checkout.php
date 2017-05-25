@@ -131,7 +131,7 @@
                             <option> Florida</option>
                             <option >Georgia</option>
                             <option >Hawaii</option>
-                            <option >daho</option>
+                            <option >Idaho</option>
                             <option >Illinois</option>
                             <option >Indiana</option>
                             <option >Iowa</option>
