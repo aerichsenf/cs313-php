@@ -92,7 +92,7 @@ foreach ($_SESSION as $Key => $quantity) {
             </tfoot>
         </table>
         <input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">
-        <form action="checkout.php" method="post">
+        <form action="checkout.html" method="post">
             <input type="submit" style="float: right;" name="Confirm" value="Confirm">
         </form>
     </div>
