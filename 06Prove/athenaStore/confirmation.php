@@ -64,5 +64,9 @@ echo "<b>" . "Your total is $" . $_SESSION['priceTotal'] . "<b>";
     </div>
 </div>
 
+<div id="footer">
+    <p style="text-align: center;"><br>Copyright©2017. All rights reserved</p>
+</div>
+
 </body>
 </html>
