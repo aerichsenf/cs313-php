@@ -12,10 +12,11 @@ $dbName = ltrim($dbopts["path"],'/');
 
 $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
 
-$statement = $db->prepare("SELECT name, description, price FROM product");
+$statement = $db->prepare("SELECT productid, name, description, price FROM product");
 $statement->execute();
+$products = Array();
 while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-    $products[] = $row;
+    $products['p_' . $row['productid']] = $row;
 
 }
 
