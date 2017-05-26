@@ -2,9 +2,17 @@
 session_start();
 include_once('getDB.php');
 
+echo "<pre>coming from products array";
 var_dump($products);
+echo "</pre>";
+
+echo "<pre>coming from session";
 var_dump($_SESSION);
+echo "</pre>";
+
+echo "<pre>coming from post";
 var_dump($_POST);
+echo "</pre>";
 
 // See if it's working
 //echo $products[0]['description'];
