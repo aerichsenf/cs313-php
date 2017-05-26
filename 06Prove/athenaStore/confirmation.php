@@ -2,7 +2,7 @@
 session_start();
 include_once("getDB.php");
 //var_dump($_SESSION);
-$first_name = filter_var($_POST['first_name'], FILTER_SANITIZE_STRING);
+$first_name = filter_post($_POST['first_name'], FILTER_SANITIZE_STRING);
 $last_name = filter_var($_POST['last_name'], FILTER_SANITIZE_STRING);
 $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
 $city = filter_var($_POST['city'], FILTER_SANITIZE_STRING);
