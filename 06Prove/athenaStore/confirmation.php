@@ -34,7 +34,7 @@ $zip = $_POST['zip'];
 //$insertIntoClient->execute();
 
 $insertIntoProduct = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
-$insertIntoOrder->execute();
+$insertIntoProduct->execute();
 
 
 ?>
