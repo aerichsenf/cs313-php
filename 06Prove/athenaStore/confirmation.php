@@ -29,11 +29,12 @@ $zip = $_POST['zip'];*/
 $insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, $address1, $address2, $city, $state, $zip)");
 $insertIntoAddress->execute();
 
-//$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
-//$insertIntoClient->execute();
+$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
+$insertIntoClient->execute();
 
-$insertIntoProduct = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
-$insertIntoProduct->execute();
+// THIS STATEMENT IS WORKING
+//$insertIntoProduct = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
+//$insertIntoProduct->execute();
 
 
 ?>

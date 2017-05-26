@@ -2,6 +2,10 @@
 session_start();
 include_once('getDB.php');
 
+var_dump($products);
+var_dump($_SESSION);
+var_dump($_POST);
+
 // See if it's working
 //echo $products[0]['description'];
 
