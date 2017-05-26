@@ -2,7 +2,7 @@
 session_start();
 include_once("getDB.php");
 //var_dump($_SESSION);
-/*$first_name = filter_var($_POST['first_name'], FILTER_SANITIZE_STRING);
+$first_name = filter_var($_POST['first_name'], FILTER_SANITIZE_STRING);
 $last_name = filter_var($_POST['last_name'], FILTER_SANITIZE_STRING);
 $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
 $city = filter_var($_POST['city'], FILTER_SANITIZE_STRING);
@@ -10,8 +10,8 @@ $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
 $address1 = filter_var($_POST['address1'], FILTER_SANITIZE_STRING);
 $address2 = filter_var($_POST['address2'], FILTER_SANITIZE_STRING);
 $state = filter_var($_POST['state'], FILTER_SANITIZE_STRING);
-$zip = filter_var($_POST['zip'], FILTER_SANITIZE_STRING); **/
-
+$zip = filter_var($_POST['zip'], FILTER_SANITIZE_STRING);
+/*
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
 $email = $_POST['email'];
@@ -20,7 +20,7 @@ $phone = $_POST['phone'];
 $address1 = $_POST['address1'];
 $address2 = $_POST['address2'];
 $state = $_POST['state'];
-$zip = $_POST['zip'];
+$zip = $_POST['zip'];*/
 
 
 //echo $products[0]['description'];
