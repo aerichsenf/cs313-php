@@ -26,12 +26,12 @@ $zip = $_POST['zip'];
 //echo $products[0]['description'];
 
 // To insert into address
-$insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, $address1, $address2, $city
-, $state, $zip)");
-$insertIntoAddress->execute();
+//$insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, $address1, $address2, $city
+//, $state, $zip)");
+//$insertIntoAddress->execute();
 
-$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
-$insertIntoClient->execute();
+//$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
+//$insertIntoClient->execute();
 
 $insertIntoProduct = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
 $insertIntoOrder->execute();
