@@ -2,6 +2,16 @@
 session_start();
 include_once('getDB.php');
 
+// See if it's working
+//echo $products[0]['description'];
+
+foreach ($_POST as $Key => $quantity) {
+    if (array_key_exists($Key, $products)) {
+        $_SESSION[$Key] = $quantity;
+        echo $products[$Key]['description'] . ' --> ';
+        echo ($_SESSION[$Key]) . "<br><br>";
+    }
+}
 foreach ($_SESSION as $Key => $quantity) {
     if (array_key_exists($Key, $products)) {
         $_SESSION[$Key] = $quantity;
