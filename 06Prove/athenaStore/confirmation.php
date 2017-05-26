@@ -15,15 +15,15 @@ $zip = filter_var($_POST['zip'], FILTER_SANITIZE_STRING);
 echo $products[0]['description'];
 
 // To insert into address
-$insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, $address1, $address2, $city
-, $state, $zip)");
+$insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, '$address1', '$address2', '$city'
+, '$state', '$zip')");
 $insertIntoAddress->execute();
 
-$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
+$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, '$first_name', '$last_name', '$email', DEFAULT)");
 $insertIntoClient->execute();
 
-//$insertIntoOrder = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
-//$insertIntoOrder->execute();
+$insertIntoProduct = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
+$insertIntoOrder->execute();
 
 
 ?>
