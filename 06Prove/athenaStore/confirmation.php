@@ -2,35 +2,28 @@
 session_start();
 include_once("getDB.php");
 //var_dump($_SESSION);
-$first_name = $_POST['first_name'];
-$last_name = $_POST['last_name'];
-$email = $_POST['email'];
-$city = $_POST['city'];
-$phone = $_POST['phone'];
-$address1 = $_POST['address1'];
-$address2 = $_POST['address2'];
-$state = $_POST['state'];
-$zip = $_POST['zip'];
+$first_name = filter_var($_POST['first_name'], FILTER_SANITIZE_STRING);
+$last_name = filter_var($_POST['last_name'], FILTER_SANITIZE_STRING);
+$email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
+$city = filter_var($_POST['city'], FILTER_SANITIZE_STRING);
+$phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
+$address1 = filter_var($_POST['address1'], FILTER_SANITIZE_STRING);
+$address2 = filter_var($_POST['address2'], FILTER_SANITIZE_STRING);
+$state = filter_var($_POST['state'], FILTER_SANITIZE_STRING);
+$zip = filter_var($_POST['zip'], FILTER_SANITIZE_STRING);
 
 echo $products[0]['description'];
 
-// Try a select statement here
+// To insert into address
+$insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, $address1, $address2, $city
+, $state, $zip)");
+$insertIntoAddress->execute();
 
-//$newId = $pdo->lastInsertId('productid_seq');
-//$nextId = $db->prepare("nextval('product_productid_seq'::regclass);");
-//$newId2 = $pdo->lastInsertId('product_id_seq');
-//$newId3 = $pdo->lastInsertId('id_seq');
+$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
+$insertIntoClient->execute();
 
-//$nextId = $db->prepare("SELECT MAX(productID) FROM product");
-
-
-//echo "nextID --> " . (integer)$nextId;
-//echo "2 --> " . $newId2;
-//echo "3 --> " . $newId3;
-
-
-//$insertStatement = $db->prepare("INSERT INTO product VALUES (7, 'Pira', 'bla bla bla', 9.99)");
-//$insertStatement->execute();
+//$insertIntoOrder = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
+//$insertIntoOrder->execute();
 
 
 ?>
