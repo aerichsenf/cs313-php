@@ -47,6 +47,16 @@ foreach ($_SESSION as $Key => $quantity) {
                 return true;
             }
         }
+
+
+        function deleteme2(delid) {
+            //alert("it's working");
+            if(confirm("Click okay to delete your cart!")) {
+                //  window.location.href='delete.php?del_id='+ delid +'';
+                window.location.href='delete.php?del_id=' + delid+'';
+                return true;
+            }
+        }
     </script>
 
     <div id="wrapper">
@@ -83,8 +93,8 @@ foreach ($_SESSION as $Key => $quantity) {
                 <td><?php echo $products[$Key]['description'];?> </td>
                 <td><?php echo $quantity;?></td>
                 <td><?php echo $subTotal;?></td>
-                <!-- implement this later
-                <td><input type="button" onClick="deleteme()" name="Delete" value="Delete"></td> -->
+                <!-- Test delete Button -->
+                <td><input type="button" onClick="deleteme2(<?php echo $products[$Key]; ?>)" name="Delete" value="Delete"></td> -->
                 <?php
                 }
                 } ?>

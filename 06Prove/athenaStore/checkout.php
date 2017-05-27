@@ -163,7 +163,7 @@
                             <option>South Dakota</option>
                             <option>Tennessee</option>
                             <option>Texas</option>
-                            <option> Uttah</option>
+                            <option> Utah</option>
                             <option>Vermont</option>
                             <option>Virginia</option>
                             <option >Washington</option>

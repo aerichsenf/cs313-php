@@ -1,5 +1,5 @@
 /*****
- * code borrowed from http://bootstrapvalidator.votintsev.ru/settings/ and other tutorials
+ * code taken from http://bootstrapvalidator.votintsev.ru/settings/ and other tutorials
  */
 
 $(document).ready(function() {
