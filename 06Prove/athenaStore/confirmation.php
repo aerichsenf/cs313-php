@@ -63,7 +63,7 @@ $statementClient->execute();
 <div class="container">
     <div class="jumbotron">
 <?php
-echo "<h1>Your order has been processed </h1>";
+echo "<h1>Your order has been processed </h1><br>";
 ?>
         <table class="table">
             <thead>
@@ -100,7 +100,7 @@ echo "<h1>Your order has been processed </h1>";
                 <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
             </tfoot>
         </table>
-        <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
+        <hr>
         <?php
         echo "<h3>It will be shipped to:<br></h3>";
         echo $first_name . " " . $last_name . "<br>";

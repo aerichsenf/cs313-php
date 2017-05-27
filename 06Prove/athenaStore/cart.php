@@ -66,9 +66,10 @@ foreach ($_SESSION as $Key => $quantity) {
         </div>
     </div>
     <br>
-    <div>
-
-        <table border="1" align="center" style="line-height:25px;">
+    <div class="container">
+        <div class="jumbotron">
+        <table class="table">
+            <thead>
             <tr>
                 <th>Name</th>
                 <th>Description</th>
@@ -76,6 +77,7 @@ foreach ($_SESSION as $Key => $quantity) {
                 <th>Subtotal</th>
                 <th>Delete</th>
             </tr>
+            </thead>
             <?php
             $total = 0;
             foreach ($_SESSION as $Key => $quantity) {
@@ -83,18 +85,22 @@ foreach ($_SESSION as $Key => $quantity) {
             $subTotal = ((real)$products[$Key]['price'] * (real)$quantity);
             $total += $subTotal;
             ?>
+            <tbody>
             <tr>
                 <td><?php echo $products[$Key]['name'];?> </td>
                 <td><?php echo $products[$Key]['description'];?> </td>
                 <td><?php echo $quantity;?></td>
                 <td><?php echo $subTotal;?></td>
                 <!-- Test delete Button -->
-                <td><input type="button" onClick="deleteme2(<?php echo $products[$Key]; ?>)" name="Delete" value="Delete"></td>                 <?php
+                <td><input type="button" onClick="deleteme2(<?php echo $products[$Key]; ?>)" name="Delete" value="Delete"></td>
+            </tr>
+            </tbody>
+                <?php
                 }
                 } ?>
         </table>
         <br><br>
-        <table border="1" align="center" style="line-height:25px;">
+        <table class="table">
             <tfoot>
             <tr>
                 <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
@@ -111,6 +117,7 @@ foreach ($_SESSION as $Key => $quantity) {
                     </form>
                 </div>
             </div>
+    </div>
 
 
     <br><br><br>
