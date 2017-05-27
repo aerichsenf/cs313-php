@@ -32,8 +32,8 @@
       <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="55" column="67" lean-forward="false" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+            <state relative-caret-position="450">
+              <caret line="55" column="69" lean-forward="true" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
               <folding>
                 <marker date="1495860563669" expanded="true" signature="656:712" ph="..." />
                 <marker date="1495860563669" expanded="true" signature="3474:3520" ph="..." />
@@ -44,29 +44,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/athenaStore/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="470">
+              <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
               <folding>
-                <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-                <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-                <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-                <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-                <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-                <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-                <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+                <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+                <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
               </folding>
             </state>
           </provider>
@@ -83,6 +78,7 @@
       <find>html</find>
       <find>name</find>
       <find>footer</find>
+      <find>--&gt;</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -94,9 +90,9 @@
         <option value="$PROJECT_DIR$/athenaStore/home.php" />
         <option value="$PROJECT_DIR$/athenaStore/checkout.php" />
         <option value="$PROJECT_DIR$/athenaStore/content.js" />
-        <option value="$PROJECT_DIR$/athenaStore/confirmation.php" />
         <option value="$PROJECT_DIR$/athenaStore/cart.php" />
         <option value="$PROJECT_DIR$/athenaStore/delete.php" />
+        <option value="$PROJECT_DIR$/athenaStore/confirmation.php" />
       </list>
     </option>
   </component>
@@ -264,12 +260,12 @@
       <workItem from="1495823680598" duration="2853000" />
       <workItem from="1495830125034" duration="683000" />
       <workItem from="1495859132474" duration="491000" />
-      <workItem from="1495859669055" duration="998000" />
+      <workItem from="1495859669055" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25209000" />
+    <option name="totallyTimeSpent" value="25921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-11" width="1368" height="780" extended-state="6" />
@@ -346,13 +342,8 @@
         <state relative-caret-position="414">
           <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -385,13 +376,8 @@
         <state relative-caret-position="504">
           <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="70" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -437,13 +423,8 @@
         <state relative-caret-position="504">
           <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="70" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -494,13 +475,8 @@
         <state relative-caret-position="504">
           <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -538,13 +514,8 @@
         <state relative-caret-position="468">
           <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -569,13 +540,8 @@
         <state relative-caret-position="544">
           <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -648,13 +614,8 @@
         <state relative-caret-position="450">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -689,13 +650,8 @@
         <state relative-caret-position="432">
           <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
           </folding>
         </state>
       </provider>
@@ -734,22 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <marker date="1495860282185" expanded="true" signature="670:749" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="823:900" ph="INSERT INTO client... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1039" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1003:1068" ph="INSERT INTO product... " />
-            <marker date="1495860282185" expanded="true" signature="1014:1039" ph="SELECT name,... product" />
-            <marker date="1495860282185" expanded="true" signature="1124:1201" ph="INSERT INTO address... " />
-            <marker date="1495860282185" expanded="true" signature="1689:1765" ph="INSERT INTO scripture... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -767,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="55" column="67" lean-forward="false" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+        <state relative-caret-position="450">
+          <caret line="55" column="69" lean-forward="true" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
           <folding>
             <marker date="1495860563669" expanded="true" signature="656:712" ph="..." />
             <marker date="1495860563669" expanded="true" signature="3474:3520" ph="..." />
@@ -780,9 +720,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athenaStore/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athenaStore/confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding>
+            <marker date="1495861377243" expanded="true" signature="652:729" ph="INSERT INTO address... " />
+            <marker date="1495861377243" expanded="true" signature="1078:1155" ph="INSERT INTO scripture... " />
+          </folding>
         </state>
       </provider>
     </entry>

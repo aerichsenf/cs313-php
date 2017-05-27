@@ -11,20 +11,10 @@ $address2 = filter_var($_POST['address2'], FILTER_SANITIZE_STRING);
 $state = filter_var($_POST['state'], FILTER_SANITIZE_STRING);
 $zip = filter_var($_POST['zip'], FILTER_SANITIZE_STRING);
 
-//$insertIntoAddress = $db->prepare("INSERT INTO address VALUES (DEFAULT, $address1, $address2, $city, $state, $zip)");
-//$insertIntoAddress->execute();
-
-//$insertIntoClient = $db->prepare("INSERT INTO client VALUES (DEFAULT, $first_name, $last_name, $email, DEFAULT)");
-//$insertIntoClient->execute();
-
-// THIS STATEMENT IS WORKING
-//$insertIntoProduct = $db->prepare("INSERT INTO product VALUES (DEFAULT, 'Pira', 'bla bla bla', 9.99)");
-//$insertIntoProduct->execute();
 
 $insertAddress = 'INSERT INTO address VALUES(DEFAULT,:address1, :address2, :city, :state, :zip)';
 $statementAddress = $db->prepare($insertAddress);
-// Now we bind the values to the placeholders. This does some nice things
-// including sanitizing the input with regard to sql commands.
+
 $statementAddress->bindValue(':address1', $address1);
 $statementAddress->bindValue(':address2', $address2);
 $statementAddress->bindValue(':city', $city);
@@ -33,10 +23,7 @@ $statementAddress->bindValue(':zip', $zip);
 $statementAddress->execute();
 
 
-
-
-
-$insertClient = 'INSERT INTO scripture VALUES(DEFAULT,:firstname, :lastname, :email, DEFAULT)';
+$insertClient = 'INSERT INTO scripture VALUES(DEFAULT, :firstname, :lastname, :email, DEFAULT)';
 $statementClient = $db->prepare($insertClient);
 // Now we bind the values to the placeholders. This does some nice things
 // including sanitizing the input with regard to sql commands.
@@ -73,25 +60,51 @@ $statementClient->execute();
 </div>
 <br><br>
 
-
-<table border="1" align="center" style="line-height:25px;">
-    <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Quantity</th>
-    </tr>
-    <?php
-    //foreach ($_SESSION as $key => $products) {
-      //  echo $products['name']['description'] . '<br>';
-
-
-//    }
-    ?>
-</table>
 <div class="container">
     <div class="jumbotron">
 <?php
 echo "<h1>" . "Your order has been processed." . "<h3>It will be shipped to:</h1><br></h3>";
+?>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+            $total = 0;
+            foreach ($_SESSION as $Key => $quantity) {
+            if (array_key_exists($Key, $products)) {
+            $subTotal = ((real)$products[$Key]['price'] * (real)$quantity);
+            $total += $subTotal;
+            ?>
+            <tr>
+                <td><?php echo $products[$Key]['name'];?> </td>
+                <td><?php echo $products[$Key]['description'];?> </td>
+                <td><?php echo $quantity;?></td>
+                <td><?php echo $subTotal;?></td>
+            </tr>
+                <?php
+                }
+                } ?>
+            </tbody>
+        </table>
+        <br><br>
+        <table border="1" align="center" style="line-height:25px;">
+            <tfoot>
+            <tr>
+                <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
+            </tfoot>
+        </table>
+        <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
+    </div>
+    <br><br>
+
+<?php
 echo $first_name . " " . $last_name . "<br>";
 echo $address1 . " " . $address2 . "<br>";
 echo $city . " - " .$state . ", " . $zip . "<br>";
@@ -101,42 +114,7 @@ echo "<b>" . "Your total is $" . $_SESSION['priceTotal'] . "<b>";
 </div>
 
 
-<table border="1" align="center" style="line-height:25px;">
-    <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Quantity</th>
-        <th>Subtotal</th>
-        <th>Delete</th>
-    </tr>
-    <?php
-    $total = 0;
-    foreach ($_SESSION as $Key => $quantity) {
-    if (array_key_exists($Key, $products)) {
-    $subTotal = ((real)$products[$Key]['price'] * (real)$quantity);
-    $total += $subTotal;
-    ?>
-    <tr>
-        <td><?php echo $products[$Key]['name'];?> </td>
-        <td><?php echo $products[$Key]['description'];?> </td>
-        <td><?php echo $quantity;?></td>
-        <td><?php echo $subTotal;?></td>
-        <!-- implement this later
-        <td><input type="button" onClick="deleteme()" name="Delete" value="Delete"></td> -->
-        <?php
-        }
-        } ?>
-</table>
-<br><br>
-<table border="1" align="center" style="line-height:25px;">
-    <tfoot>
-    <tr>
-        <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
-    </tfoot>
-</table>
-<!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
-</div>
-<br><br>
+
 
 
 
