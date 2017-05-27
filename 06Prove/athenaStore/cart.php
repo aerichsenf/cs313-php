@@ -68,6 +68,7 @@ foreach ($_SESSION as $Key => $quantity) {
     <br>
     <div class="container">
         <div class="jumbotron">
+            <h2>This is your cart:</h2><br>
         <table class="table">
             <thead>
             <tr>
