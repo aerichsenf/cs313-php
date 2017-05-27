@@ -94,7 +94,7 @@ echo "<h1>Your order has been processed </h1><br>";
             </tbody>
         </table>
         <br><br>
-        <table border="1" align="center" style="line-height:25px;">
+        <table class="table">
             <tfoot>
             <tr>
                 <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
