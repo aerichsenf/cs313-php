@@ -63,7 +63,7 @@ $statementClient->execute();
 <div class="container">
     <div class="jumbotron">
 <?php
-echo "<h1>" . "Your order has been processed." . "<h3>It will be shipped to:</h1><br></h3>";
+echo "<h1>Your order has been processed </h1>";
 ?>
         <table class="table">
             <thead>
@@ -101,22 +101,15 @@ echo "<h1>" . "Your order has been processed." . "<h3>It will be shipped to:</h1
             </tfoot>
         </table>
         <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
-    </div>
-    <br><br>
-
-<?php
-echo $first_name . " " . $last_name . "<br>";
-echo $address1 . " " . $address2 . "<br>";
-echo $city . " - " .$state . ", " . $zip . "<br>";
-echo "<b>" . "Your total is $" . $_SESSION['priceTotal'] . "<b>";
-?>
+        <?php
+        echo "<h3>It will be shipped to:<br></h3>";
+        echo $first_name . " " . $last_name . "<br>";
+        echo $address1 . " " . $address2 . "<br>";
+        echo $city . " - " .$state . ", " . $zip . "<br>";
+        ?>
     </div>
 </div>
-
-
-
-
-
+    <br><br>
 
 <div id="footer">
     <p style="text-align: center;"><br>Copyright©2017. All rights reserved</p>

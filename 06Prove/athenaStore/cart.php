@@ -8,16 +8,11 @@ include_once('getDB.php');
 foreach ($_POST as $Key => $quantity) {
     if (array_key_exists($Key, $products)) {
         $_SESSION[$Key] = $quantity;
-        //echo $products[$Key]['description'] . ' --> dwdwd';
-        //echo ($_SESSION[$Key]) . "<br><br>";
     }
 }
 foreach ($_SESSION as $Key => $quantity) {
     if (array_key_exists($Key, $products)) {
         $_SESSION[$Key] = $quantity;
-        //echo $products[$Key]['description'].  ' ' ;
-        //echo $products[$Key]['price']. ' ';
-        //echo $quantity;
     }
 }
 ?>
@@ -94,8 +89,7 @@ foreach ($_SESSION as $Key => $quantity) {
                 <td><?php echo $quantity;?></td>
                 <td><?php echo $subTotal;?></td>
                 <!-- Test delete Button -->
-                <td><input type="button" onClick="deleteme2(<?php echo $products[$Key]; ?>)" name="Delete" value="Delete"></td> -->
-                <?php
+                <td><input type="button" onClick="deleteme2(<?php echo $products[$Key]; ?>)" name="Delete" value="Delete"></td>                 <?php
                 }
                 } ?>
         </table>
@@ -106,11 +100,9 @@ foreach ($_SESSION as $Key => $quantity) {
                 <td colspan="5" align="right"><b>Total: </b><?php echo $total?></td>
             </tfoot>
         </table>
-        <!--<input type="button" style="float: right;" onClick="deleteme()" name="Delete" value="Delete">-->
     </div>
     <br><br>
             <div>
-                <!--<label class="col-md-4 control-label"></label>-->
                 <label class="col-md-5 control-label"></label>
                 <div class="col-md-5">
                     <form action="checkout.php" method="post">
