@@ -77,9 +77,9 @@
         <entry file="file://$PROJECT_DIR$/getDB.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
-                <marker date="1496387438628" expanded="true" signature="337:392" ph="SELECT produ... product" />
+                <marker date="1496387540024" expanded="true" signature="337:392" ph="SELECT produ... product" />
               </folding>
             </state>
           </provider>
@@ -279,12 +279,12 @@
       <workItem from="1495228583263" duration="18229000" />
       <workItem from="1495253731366" duration="8640000" />
       <workItem from="1495319127537" duration="3394000" />
-      <workItem from="1496385987195" duration="1454000" />
+      <workItem from="1496385987195" duration="1554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31717000" />
+    <option name="totallyTimeSpent" value="31817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1368" height="773" extended-state="6" />
@@ -538,9 +538,9 @@
     <entry file="file://$PROJECT_DIR$/getDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
-            <marker date="1496387438628" expanded="true" signature="337:392" ph="SELECT produ... product" />
+            <marker date="1496387540024" expanded="true" signature="337:392" ph="SELECT produ... product" />
           </folding>
         </state>
       </provider>
