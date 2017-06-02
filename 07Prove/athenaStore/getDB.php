@@ -17,11 +17,11 @@ $statement->execute();
 $products = Array();
 while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
     $products['p_' . $row['productid']] = $row;
-    echo $products['p_' . $row['productid']]['name'];
+    //echo $products['p_' . $row['productid']]['name'];
 
 }
 
 echo "hello from the database";
-echo $product[0]['productid'];
+echo $products[0]['p_' . $row['productid']]['name'];
 
 ?>
