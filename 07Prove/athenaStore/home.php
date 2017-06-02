@@ -4,8 +4,6 @@ include_once("getDB.php");
 
 $key = array_keys($products);
 
-echo $products[0]['description'];
-
 ?>
 
 

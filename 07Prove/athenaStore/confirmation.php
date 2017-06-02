@@ -23,7 +23,7 @@ $statementAddress->bindValue(':zip', $zip);
 $statementAddress->execute();
 
 
-$insertClient = 'INSERT INTO scripture VALUES(DEFAULT, :firstname, :lastname, :email, DEFAULT)';
+$insertClient = 'INSERT INTO client VALUES(DEFAULT, :firstname, :lastname, :email, DEFAULT)';
 $statementClient = $db->prepare($insertClient);
 // Now we bind the values to the placeholders. This does some nice things
 // including sanitizing the input with regard to sql commands.

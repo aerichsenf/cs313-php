@@ -17,12 +17,8 @@ $statement->execute();
 $products = Array();
 while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
     $products['p_' . $row['productid']] = $row;
-    //echo $products['p_' . $row['productid']]['name'];
-
 }
 
-echo "hello from the database";
-echo $products['p_' . $row['productid']]['name'];
 
 
 ?>
