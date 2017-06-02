@@ -22,8 +22,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 }
 
 echo "hello from the database";
-echo $products['p_' . $row[1]]['name'];
-echo $products['p_' . $row['1']]['name'];
+echo $products['p_' . $row['productid']]['name'];
 
 
 ?>
