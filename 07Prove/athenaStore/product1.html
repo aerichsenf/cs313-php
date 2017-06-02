@@ -78,7 +78,12 @@ $key = array_keys($products);
 </div>
 
 <div id="centerColumnProduct">
-    <b><?php echo $products[0]['description']; ?></b>
+    <form action="cart.php" method="post">
+        <?php
+                echo "<input type='number' name='$key[0]' style='width:50px' placeholder='QTY'>" ;
+        echo "  <input type='submit' value='add to cart'>". "<br>" ;
+        ?>
+    </form>
 
 </div>
 
