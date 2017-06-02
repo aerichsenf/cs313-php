@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -68,6 +68,18 @@
                 <marker date="1496387120515" expanded="true" signature="2703:2752" ph="..." />
                 <marker date="1496387120515" expanded="true" signature="2784:2794" ph="..." />
                 <marker date="1496387120515" expanded="true" signature="2947:2979" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getDB.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding>
+                <marker date="1496387219652" expanded="true" signature="337:392" ph="SELECT produ... product" />
               </folding>
             </state>
           </provider>
@@ -102,6 +114,7 @@
         <option value="$PROJECT_DIR$/product1.html" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/product1.php" />
+        <option value="$PROJECT_DIR$/getDB.php" />
       </list>
     </option>
   </component>
@@ -266,12 +279,12 @@
       <workItem from="1495228583263" duration="18229000" />
       <workItem from="1495253731366" duration="8640000" />
       <workItem from="1495319127537" duration="3394000" />
-      <workItem from="1496385987195" duration="1136000" />
+      <workItem from="1496385987195" duration="1235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31399000" />
+    <option name="totallyTimeSpent" value="31498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1368" height="773" extended-state="6" />
@@ -518,6 +531,16 @@
             <marker date="1496387120515" expanded="true" signature="2703:2752" ph="..." />
             <marker date="1496387120515" expanded="true" signature="2784:2794" ph="..." />
             <marker date="1496387120515" expanded="true" signature="2947:2979" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <marker date="1496387219652" expanded="true" signature="337:392" ph="SELECT produ... product" />
           </folding>
         </state>
       </provider>

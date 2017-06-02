@@ -20,4 +20,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 
 }
 
+echo "hello from the database";
+echo $product[0]['productid'];
+
 ?>
