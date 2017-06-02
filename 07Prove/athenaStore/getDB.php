@@ -17,7 +17,7 @@ $statement->execute();
 $products = Array();
 while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
     $products['p_' . $row['productid']] = $row;
-    echo $products['p_' . $row['productid']];
+    echo $products['p_' . $row['productid']]['name'];
 
 }
 
