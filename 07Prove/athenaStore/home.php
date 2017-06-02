@@ -39,7 +39,7 @@ $key = array_keys($products);
         </div>
         <br>
         <div id="columnLeft">
-            <b><?php echo $products[0]['description']; ?></b>
+            <b>Daisy</b>
             <img src="p1.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -51,7 +51,7 @@ $key = array_keys($products);
         </div>
 
         <div id="columnRight">
-            <b><?php echo $products[2]['description']; ?></b>
+            <b>Romance</b>
             <img src="p3.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -62,7 +62,7 @@ $key = array_keys($products);
         </div>
 
         <div id="content">
-            <b><?php echo $products[1]['description']; ?></b>
+            <b>Versace</b>
             <img src="p2.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -73,7 +73,7 @@ $key = array_keys($products);
         </div>
 
         <div id="columnLeft2">
-            <b><?php echo $products[3]['description']; ?></b>
+            <b>Omnia</b>
             <img src="p4.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -84,7 +84,7 @@ $key = array_keys($products);
         </div>
 
         <div id="columnRight2">
-            <b><?php echo $products[5]['description']; ?></b>
+            <b>Black Opium</b>
             <img src="p6.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
@@ -95,7 +95,7 @@ $key = array_keys($products);
         </div>
 
         <div id="content2">
-            <b><?php echo $products[4]['description']; ?></b>
+            <b>Cashmere Mist</b>
             <img src="p5.jpg" alt="perfum" style="width: 80%; height: 80%;">
             <form action="cart.php" method="post">
                 <?php
